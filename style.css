@@ -180,6 +180,7 @@ button{
   padding:5px;
   display:block;
   border-radius:16px;
+  cursor:pointer;
   
 }
 .line{
