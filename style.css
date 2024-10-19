@@ -140,9 +140,10 @@ body{
   padding-left: 360px; /* Padding inside the main content area */
   padding-right:100px;
   padding-top:150px;
-  padding-bottom:200px;
+  padding-bottom:500px;
   width:auto;
   border-bottom:1px solid #10236442;
+  
 }
 .footer{
   padding-left:360px;
@@ -181,7 +182,9 @@ button{
   border-radius:16px;
   
 }
-
+.line{
+  display:none;
+}
 
 @media screen and (max-width:800px)
 {
@@ -258,6 +261,9 @@ button{
     display:block;
     border-radius:12px;
     
+  }
+  .line{
+    display:block;
   }
 }
 

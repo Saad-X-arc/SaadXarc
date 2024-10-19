@@ -1,0 +1,165 @@
+h1{
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+h2{
+  color:#FFFC;
+  font-family:'Roboto','sans-serif';
+  font-size: 1.5rem;
+  padding: 2px 2px;
+  line-height: 30px;
+ 
+  text-align: center;
+}
+
+.role-container{
+  display: flex;
+  height:40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.typewriter {
+  line-height: 40px;
+  border-right: 10px solid white;
+  text-align: center;
+  white-space: nowrap;
+  display:block;
+  
+  animation: blink 0.7s infinite step-end;
+  color: #08d4b9e8;
+  font-family:cursive;
+  font-size: 3em;
+  
+}
+
+
+
+.contactcontainer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*button*/
+.button-64 {
+  
+  text-align: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-bottom:0.8rem;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+
+
+.social
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px solid white;
+  border-right:5px solid white;
+  margin-top: 10px;
+  margin-bottom:10px;
+  
+}
+.icon {
+  padding: 20px;
+  font-size: 30px;
+  width: 34px;
+  height:34px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.heading{
+
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1040px)
+{
+  h1{
+
+    font-size: 2rem;
+ 
+  }
+  h2{
+  
+    font-size: 1rem;
+  }
+  .typewriter {
+    line-height: 40px;
+    border-right: 10px solid white;
+    text-align: center;
+    white-space: nowrap;
+    display:block;
+    
+    animation: blink 0.7s infinite step-end;
+    color: #08d4b9e8;
+    font-family:cursive;
+    font-size: 1.5em;
+    
+  }
+}
