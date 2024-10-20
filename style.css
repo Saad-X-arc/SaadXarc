@@ -51,7 +51,7 @@ a{
   margin:0px 8px 0px 0px;
 }
 
-.animatedbtn {
+.animatedbtn,.animatedbtn-submit {
   align-items: flex-start;
   padding: 8px 29px;
   font-size: 18px;
