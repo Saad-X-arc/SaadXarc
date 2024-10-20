@@ -1,0 +1,135 @@
+h1{
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+.contact-container
+{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:20px;
+}
+
+.contact-title h2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  color:whitesmoke;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  padding: 25px 25px 10px 10px;
+  
+  
+}
+h3{
+  color:#FFFC;
+  font-family:'Roboto','sans-serif';
+  font-size: 1.5rem;
+  padding: 2px 2px;
+  line-height: 30px;
+ 
+  text-align: center;
+}
+.contact-inputs{
+  width:600px;
+  min-width:250px;
+  height:50px;
+  border:none;
+  outline:none;
+  padding-left:25px;
+  font-weight:500;
+  color:#666;
+  border-radius:50px;
+  background-color: rgb(187, 187, 187);
+  
+}
+
+.message{
+  min-height:100px;
+  border-radius: 20px;
+}
+
+.button-submit{
+  transition: background-color 0.3s ease;
+  cursor:pointer;
+}
+.status-message {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+    
+    color:#0d1224fd;
+  font-weight: bold;
+}
+.social
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px solid white;
+  border-right:5px solid white;
+  margin-top: 10px;
+  margin-bottom:10px;
+  
+}
+.icon {
+  padding: 20px;
+  font-size: 30px;
+  width: 34px;
+  height:34px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.details-container{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.details-align{
+
+  display: flex;
+  flex-direction: column; /* Align children in a column */
+  align-items: flex-start; /* Align items to the left */
+  width: 300px; /* Set a fixed width for the container */
+}
+
+
+.details
+{
+  display: flex;
+  vertical-align: top;
+  justify-items: center;
+  align-content: left;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:1040px)
+{
+  .contact-inputs{
+    width:auto;
+  }
+  .contact-title h2{
+  font-weight: 300;
+  color:whitesmoke;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  
+  }
+  h1{
+    font-size: 2rem;
+    line-height: 37px;
+  }
+}
