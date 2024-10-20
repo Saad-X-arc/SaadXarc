@@ -57,18 +57,6 @@ h3{
   border-radius: 20px;
 }
 
-.button-submit{
-  transition: background-color 0.3s ease;
-  cursor:pointer;
-}
-.status-message {
-  display: block;
-  margin-top: 10px;
-  font-size: 16px;
-    
-    color:#0d1224fd;
-  font-weight: bold;
-}
 .social
 {
   display:flex;

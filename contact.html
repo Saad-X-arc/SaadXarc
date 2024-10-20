@@ -34,17 +34,18 @@
    <main class="main">
     <h1>Get in Touch with Us!</h1>
         <div class="contact-container">
-          <form action="" class="contact" id="myForm">
+          <form  action="https://api.web3forms.com/submit" method="POST" class="contact" id="myForm">
             
             <div class="contact-title">
             
-              <h3>We are Lightning Fash When it comes to replying!</h3>
+              <h3>We are Lightning Fast When it comes to replying!</h3>
                     
                 </div>
+                <input type="hidden" name="access_key" value="c5bbe4ce-9d30-4bb7-bebc-60a7e211d97e">
                   <input type="text" name="name" placeholder="Your Name"  class="contact-inputs" required>
                   <input type="email" name="Email" placeholder="Your Email"  class="contact-inputs" required>
                 <textarea name="Message" placeholder="Your Message"  class="contact-inputs message" required></textarea>
-                <button type="submit" class="button-submit">Submit </button>
+                <button id="submit" type="submit" class="animatedbtn">Submit </button>
               
 
 
@@ -111,6 +112,7 @@
     </p>
 
   </footer>
+ 
   <script src="script.js"></script>
 </body>
 </html>
