@@ -88,6 +88,9 @@ a{
 .animatedbtn:hover {
   transform: scale(1.05);
 }
+.animatedbtn-submit:hover{
+  transform: scale(1.1);
+}
 
 
 /* The side navigation menu */
@@ -168,7 +171,7 @@ button{
   border-color: #273566;
   border-radius:20px;
   margin-top:4px;
-  
+  cursor:pointer;
 }
 
 .grid{

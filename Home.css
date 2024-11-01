@@ -111,6 +111,7 @@ h2{
   margin-bottom:10px;
   
 }
+
 .icon {
   padding: 20px;
   font-size: 30px;
@@ -118,7 +119,12 @@ h2{
   height:34px;
   text-align: center;
   text-decoration: none;
+  transition:ease-in-out 10s;
   
+  
+}
+.icon:hover{
+  transform:rotate(11360deg);
 }
 
 .heading{

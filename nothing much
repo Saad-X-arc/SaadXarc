@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Active State</title>
+    <style>
+        .active {
+            background-color: #007BFF;
+            color: white;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    </script>
+
+</body>
+</html>
